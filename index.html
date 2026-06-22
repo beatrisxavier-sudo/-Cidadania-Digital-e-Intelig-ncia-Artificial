@@ -10,6 +10,7 @@
 
     <header>
         <div class="container">
+            <span class="badge">Projeto Escolar 2026</span>
             <h1>Cidadania Digital & IA</h1>
             <p>O impacto das Deepfakes e da Desinformação na Sociedade</p>
         </div>
@@ -17,23 +18,102 @@
 
     <main class="container">
         
-        <section class="card animate-fade">
+        <section class="card">
             <h2>O que são Deepfakes e Desinformação?</h2>
             <p>Com o avanço da Inteligência Artificial, ficou muito mais fácil criar vídeos, áudios e imagens falsas que parecem perfeitamente reais. Essas são as <strong>deepfakes</strong>. Quando usadas para espalhar mentiras de forma automatizada, elas geram desinformação, prejudicam pessoas e manipulam a opinião pública.</p>
         </section>
 
         <section class="card">
             <h2>A Evolução da IA Visual</h2>
-            <p>A inteligência artificial consegue gerar rostos, texturas e expressões faciais quase perfeitas. Veja abaixo exemplos de elementos visuais gerados por computador:</p>
+            <p>A inteligência artificial consegue gerar rostos, texturas e expressões faciais quase perfeitas. Passe o mouse sobre as imagens para ver os detalhes analisados por softwares de detecção:</p>
             
             <div class="galeria-grid">
                 <div class="galeria-item">
-                    <img src="https://picsum.photos/400/300?random=1" alt="Exemplo de Rosto Gerado por IA">
-                    <div class="galeria-legenda">Criação de Rostos Sintéticos</div>
+                    <img src="https://picsum.photos/400/300?random=1" alt="Rosto IA">
+                    <div class="galeria-overlay">
+                        <span>Análise de Simetria Ocular</span>
+                    </div>
                 </div>
                 <div class="galeria-item">
-                    <img src="https://picsum.photos/400/300?random=2" alt="Análise de Pixels e Texturas">
-                    <div class="galeria-legenda">Análise de Textura e Iluminação</div>
+                    <img src="https://picsum.photos/400/300?random=2" alt="Textura IA">
+                    <div class="galeria-overlay">
+                        <span>Filtro de Ruído Digital</span>
+                    </div>
                 </div>
                 <div class="galeria-item">
-                    <img src="https://picsum.photos/400/300?random=3" alt="Manipulação Digital
+                    <img src="https://picsum.photos/400/300?random=3" alt="Expressão IA">
+                    <div class="galeria-overlay">
+                        <span>Mapeamento de Linhas Faciais</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card shadow-soft">
+            <h2>Como Identificar Mídias Manipuladas</h2>
+            <p>Fique atento aos pequenos detalhes. A IA ainda comete erros sutis:</p>
+            <ul class="dicas-lista">
+                <li><strong>Piscadas irreais:</strong> Rostos em deepfakes costumam piscar menos ou de forma não natural.</li>
+                <li><strong>Falhas nos cantos:</strong> Preste atenção nas bordas do rosto, perto do cabelo e das orelhas.</li>
+                <li><strong>Áudio desalinhado:</strong> O movimento dos lábios nem sempre bate perfeitamente com a fala.</li>
+                <li><strong>Iluminação e Sombras:</strong> Sombras estranhas no rosto ou reflexos nos olhos que não fazem sentido.</li>
+            </ul>
+        </section>
+
+        <div class="grid-2">
+            <section class="card">
+                <h3>Boas Práticas de Segurança</h3>
+                <p>Não seja um vetor de fake news. Siga o guia do cidadão consciente:</p>
+                <ol class="lista-passos">
+                    <li><strong>Verifique a fonte:</strong> O site que publicou é confiável?</li>
+                    <li><strong>Leia além da manchete:</strong> Títulos chamativos costumam ser armadilhas.</li>
+                    <li><strong>Consulte agências de checagem:</strong> Sites como Fato ou Fake e Lupa ajudam a confirmar.</li>
+                    <li><strong>Na dúvida, não compartilhe:</strong> Quebre a corrente da desinformação.</li>
+                </ol>
+            </section>
+
+            <section class="card quiz-box" id="quiz-container">
+                <h3>Desafio Cidadão Digital</h3>
+                <div id="quiz-conteudo">
+                    <p id="quiz-pergunta" class="pergunta-texto">Carregando pergunta...</p>
+                    <div id="quiz-opcoes" class="quiz-opcoes"></div>
+                </div>
+                <div id="resultado-quiz" class="resultado"></div>
+            </section>
+        </div>
+
+        <section class="card">
+            <h2>Jogos Educativos & Desafios Digitais</h2>
+            <p>A melhor forma de aprender a proteger-se da desinformação é jogando! Conheça estes simuladores incríveis para treinar o seu olhar:</p>
+            
+            <div class="jogos-container">
+                <div class="jogo-card azul">
+                    <div>
+                        <h4>Interland (Google)</h4>
+                        <p>Um mundo em 3D interativo onde viajas por ilhas temáticas para aprender sobre segurança na internet, phishing e partilha consciente.</p>
+                    </div>
+                    <a href="https://beinternetawesome.withgoogle.com/pt-br_br/interland" target="_blank" class="btn-jogo">Jogar Interland</a>
+                </div>
+                
+                <div class="jogo-card verde">
+                    <div>
+                        <h4>Bad News Game</h4>
+                        <p>Um simulador jornalístico satírico onde assumes o papel de um criador de notícias falsas para entender as táticas de manipulação por dentro.</p>
+                    </div>
+                    <a href="https://www.getbadnews.com/" target="_blank" class="btn-jogo">Jogar Bad News</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Projeto Escolar sobre Cidadania Digital</p>
+            <p><small>Desenvolvido com HTML5 moderno, CSS3 e JavaScript Avançado.</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
